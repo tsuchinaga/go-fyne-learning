@@ -12,13 +12,21 @@ func main() {
 	a.Settings().SetTheme(&theme.MisakiTheme{})
 
 	w := a.NewWindow("Fyne Learn")
-	w.SetContent(widget.NewVBox(
+	w.SetContent(widget.NewVBox(widget.NewVBox(
 		widget.NewLabel("Hello, World!"),
 		widget.NewLabel("こんにちわーるど！"),
 		widget.NewButton("終了", func() {
 			a.Quit()
-		})))
+		})),
+		widget.NewVBox(
+			widget.NewForm(
+				widget.NewFormItem("ID", widget.NewEntry()),
+				widget.NewFormItem("PASS", widget.NewPasswordEntry()),
+				widget.NewFormItem("メモ", widget.NewMultiLineEntry())),
+			widget.NewButton("ログイン", func() {
+				println("pressed login button")
+			}))))
 
-	w.Resize(fyne.NewSize(256, 256))
+	w.Resize(fyne.NewSize(512, 512))
 	w.ShowAndRun()
 }

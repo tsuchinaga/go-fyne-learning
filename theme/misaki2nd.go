@@ -14,6 +14,7 @@ type MisakiTheme struct{}
 // return bundled font resource
 func (MisakiTheme) TextFont() fyne.Resource     { return bundle.ResourceMisakigothic2ndTtf }
 func (MisakiTheme) TextBoldFont() fyne.Resource { return bundle.ResourceMisakigothic2ndTtf }
+func (MisakiTheme) TextSize() int               { return 24 }
 
 func (MisakiTheme) BackgroundColor() color.Color      { return theme.DarkTheme().BackgroundColor() }
 func (MisakiTheme) ButtonColor() color.Color          { return theme.DarkTheme().ButtonColor() }
@@ -29,7 +30,6 @@ func (MisakiTheme) PrimaryColor() color.Color         { return theme.DarkTheme()
 func (MisakiTheme) FocusColor() color.Color           { return theme.DarkTheme().FocusColor() }
 func (MisakiTheme) ScrollBarColor() color.Color       { return theme.DarkTheme().ScrollBarColor() }
 func (MisakiTheme) ShadowColor() color.Color          { return theme.DarkTheme().ShadowColor() }
-func (MisakiTheme) TextSize() int                     { return theme.DarkTheme().TextSize() }
 func (MisakiTheme) TextItalicFont() fyne.Resource     { return theme.DarkTheme().TextItalicFont() }
 func (MisakiTheme) TextBoldItalicFont() fyne.Resource { return theme.DarkTheme().TextBoldItalicFont() }
 func (MisakiTheme) TextMonospaceFont() fyne.Resource  { return theme.DarkTheme().TextMonospaceFont() }
