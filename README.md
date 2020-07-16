@@ -16,6 +16,7 @@ fyneでいろいろためしてみる
 * [07-dialogs](07-dialogs/main.go) ダイアログ各種
 * [08-windows](08-windows/main.go) 複数ウィンドウひらく
 * [09-split-and-scroll](09-split-and-scroll/main.go) 分割とスクロール
+* [10-desktop-notice](10-desktop-notice/main.go) デスクトップ通知
 
 ## まとめはこっち
 [fyneでいろいろやってみよー - tsuchinaga](https://scrapbox.io/tsuchinaga/fyne%E3%81%A7%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%83%BC)
