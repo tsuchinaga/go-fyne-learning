@@ -28,10 +28,7 @@ func main() {
 		}),
 		layout.NewSpacer(),
 		widget.NewButton("とじる", func() {
-			for _, sw := range subWindows {
-				sw.Close()
-			}
-			w.Close()
+			a.Quit()
 		}),
 	))
 
