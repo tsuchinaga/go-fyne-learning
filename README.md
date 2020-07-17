@@ -5,6 +5,7 @@ fyneでいろいろためしてみる
 
 ## 素材
 * [8×8 ドット日本語フォント「美咲フォント」](https://littlelimit.net/misaki.htm)
+* [IPAフォントのダウンロード](https://ipafont.ipa.go.jp/old/ipafont/download.html)
 
 ## 各ステップで試したの
 * [01-helloworld](01-helloworld/main.go) ウィンドウを開いて文字列を出力する
@@ -19,6 +20,7 @@ fyneでいろいろためしてみる
 * [10-desktop-notice](10-desktop-notice/main.go) デスクトップ通知
 * [11-key-type-event](11-key-type-event/main.go) キータイプ
 * [12-style-change](12-style-change/main.go) ラベルじゃない文字列表示
+* [13-typing-game](13-typing-game/main.go) タイピングゲーム
 
 ## まとめはこっち
 [fyneでいろいろやってみよー - tsuchinaga](https://scrapbox.io/tsuchinaga/fyne%E3%81%A7%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%83%BC)
