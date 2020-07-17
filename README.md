@@ -8,19 +8,19 @@ fyneでいろいろためしてみる
 * [IPAフォントのダウンロード](https://ipafont.ipa.go.jp/old/ipafont/download.html)
 
 ## 各ステップで試したの
-* [01-helloworld](01-helloworld/main.go) ウィンドウを開いて文字列を出力する
-* [02-japanese](02-japanese/main.go) 日本語フォントを追加して日本語を表示する
-* [03-quit-button](03-quit-button/main.go) 終了ボタンを追加する
-* [04-entry-form](04-entry-form/main.go) 入力欄を追加してみる
-* [05-form-parts](05-form-parts/main.go) Webっぽいパーツをならべてみる
-* [06-some-screens](06-some-screens/main.go) ページ遷移っぽい挙動
-* [07-dialogs](07-dialogs/main.go) ダイアログ各種
-* [08-windows](08-windows/main.go) 複数ウィンドウひらく
-* [09-split-and-scroll](09-split-and-scroll/main.go) 分割とスクロール
-* [10-desktop-notice](10-desktop-notice/main.go) デスクトップ通知
-* [11-key-type-event](11-key-type-event/main.go) キータイプ
-* [12-style-change](12-style-change/main.go) ラベルじゃない文字列表示
-* [13-typing-game](13-typing-game/main.go) タイピングゲーム
+* [01-helloworld](01-helloworld) ウィンドウを開いて文字列を出力する
+* [02-japanese](02-japanese) 日本語フォントを追加して日本語を表示する
+* [03-quit-button](03-quit-button) 終了ボタンを追加する
+* [04-entry-form](04-entry-form) 入力欄を追加してみる
+* [05-form-parts](05-form-parts) Webっぽいパーツをならべてみる
+* [06-some-screens](06-some-screens) ページ遷移っぽい挙動
+* [07-dialogs](07-dialogs) ダイアログ各種
+* [08-windows](08-windows) 複数ウィンドウひらく
+* [09-split-and-scroll](09-split-and-scroll) 分割とスクロール
+* [10-desktop-notice](10-desktop-notice) デスクトップ通知
+* [11-key-type-event](11-key-type-event) キータイプ
+* [12-style-change](12-style-change) ラベルじゃない文字列表示
+* [13-typing-game](13-typing-game) タイピングゲーム
 * [14-canvas-raster](14-canvas-raster) ラスターを使った描画
 
 ## まとめはこっち
