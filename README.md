@@ -21,6 +21,7 @@ fyneでいろいろためしてみる
 * [11-key-type-event](11-key-type-event/main.go) キータイプ
 * [12-style-change](12-style-change/main.go) ラベルじゃない文字列表示
 * [13-typing-game](13-typing-game/main.go) タイピングゲーム
+* [14-canvas-raster](14-canvas-raster) ラスターを使った描画
 
 ## まとめはこっち
 [fyneでいろいろやってみよー - tsuchinaga](https://scrapbox.io/tsuchinaga/fyne%E3%81%A7%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%83%BC)
