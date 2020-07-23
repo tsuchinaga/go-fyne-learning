@@ -23,7 +23,9 @@ func main() {
 }
 
 func newCustomWidget(text string) fyne.CanvasObject {
-	return &customWidget{text: text}
+	wid := &customWidget{text: text}
+	wid.ExtendBaseWidget(wid)
+	return wid
 }
 
 // customWidget - Widget interfaceを実装する独自ウィジェット
@@ -42,12 +44,6 @@ func (w *customWidget) CreateRenderer() fyne.WidgetRenderer {
 		text:         text,
 		objects:      []fyne.CanvasObject{text},
 	}
-}
-
-// MinSize - 自身の最小サイズを返す
-func (w *customWidget) MinSize() fyne.Size {
-	w.ExtendBaseWidget(w)
-	return w.BaseWidget.MinSize()
 }
 
 type customWidgetRenderer struct {
