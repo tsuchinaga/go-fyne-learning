@@ -28,6 +28,7 @@ func main() {
 			}))))
 
 	w.Resize(fyne.NewSize(512, 512))
+	w.SetFixedSize(true)
 	w.ShowAndRun()
 }
 
