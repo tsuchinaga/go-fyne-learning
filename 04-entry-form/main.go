@@ -22,11 +22,16 @@ func main() {
 			widget.NewForm(
 				widget.NewFormItem("ID", widget.NewEntry()),
 				widget.NewFormItem("PASS", widget.NewPasswordEntry()),
-				widget.NewFormItem("メモ", widget.NewMultiLineEntry())),
+				widget.NewFormItem("メモ", textWrapBreak(widget.NewMultiLineEntry()))),
 			widget.NewButton("ログイン", func() {
 				println("pressed login button")
 			}))))
 
 	w.Resize(fyne.NewSize(512, 512))
 	w.ShowAndRun()
+}
+
+func textWrapBreak(entry *widget.Entry) fyne.CanvasObject {
+	entry.Wrapping = fyne.TextWrapBreak
+	return entry
 }
